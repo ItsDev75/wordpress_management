@@ -1,6 +1,17 @@
 ## **WordPress Site Management Script**
 
 ## **This script allows you to easily create, manage, and delete a WordPress site using Docker and Docker Compose.**
+## Table of Contents
+
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Usage](#usage)
+  - [Create a WordPress site](#create-a-wordpress-site)
+  - [Manage the site](#manage-the-site)
+  - [Delete the site](#delete-the-site)
+- [License](#license)
+- [Contact](#contact)
+
 
 ## **Prerequisites**
 
