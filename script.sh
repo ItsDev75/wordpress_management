@@ -62,7 +62,15 @@ EOF
     echo "${public_ip} example.com" | sudo tee -a /etc/hosts
 
     # Prompt the user to open example.com in a browser
-    echo "WordPress site created successfully. Open http://example.com in your browser."
+        get_public_ip() {
+        local public_ip
+        public_ip=$(curl -sS https://ipinfo.io/ip)
+        echo "$public_ip"
+    }
+
+    # Fetch the public IP address of the EC2 instance
+    public_ip=$(get_public_ip) client_loop: send disconnect: Connection reset
+    echo "WordPress site created successfully. Open http://${public_ip}  in your browser."
 }
 
 # Enable or disable the site
