@@ -73,6 +73,5 @@ This command will stop and remove the Docker containers, delete the WordPress fi
 
 ## **Contact**
 
-**If you have any questions or issues regarding this script, please [contact us](mailto:dev902741@gmail.com).**
-```
+**If you have any questions or issues regarding this script, please [contact me](mailto:dev902741@gmail.com).**
 
