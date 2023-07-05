@@ -20,26 +20,28 @@
 - [Docker](https://docs.docker.com/get-docker/): Ensure Docker is installed on your system.
 - [Docker Compose](https://docs.docker.com/compose/install/): Ensure Docker Compose is installed on your system.
 
-## **Usage**
+## Installation
 
-**To use this script, follow the instructions below:**
+**To install the script, follow these steps:**
 
-1. **Clone the repository to your local machine:**
+1. Clone the repository to your local machine:
    ```shell
-   git clone https://github.com/ItsDev75/wordpress_management.git
-   ```
-
-2. **Navigate to the script directory:**
+   git clone https://github.com/your-username/repository-name.git
+   
+2. Navigate to the script directory:
    ```shell
    cd repository-name
    ```
-
-3. **Make the script executable:**
+3. Make the script executable:
    ```shell
    chmod +x script.sh
    ```
 
-4. **Run the script with the desired command:**
+## **Usage**
+
+**To use this script, follow the instructions below:**
+
+1. **Run the script with the desired command:**
 
    - **Create a WordPress site:**
      ```shell
@@ -59,7 +61,7 @@
      ```
      This command will stop and remove the Docker containers, delete the WordPress files directory, and clean up the `/etc/hosts` file entry.
 
-5. **Follow the instructions provided by the script.** For example, after creating a site, it will display the URL where you can access your WordPress site in a browser.
+2. **Follow the instructions provided by the script.** For example, after creating a site, it will display the URL where you can access your WordPress site in a browser.
 
 ## **License**
 
