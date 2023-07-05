@@ -9,7 +9,6 @@
   - [Create a WordPress site](#create-a-wordpress-site)
   - [Manage the site](#manage-the-site)
   - [Delete the site](#delete-the-site)
-- [License](#license)
 - [Contact](#contact)
 
 
@@ -72,12 +71,8 @@ To delete the site, use the following command:
 This command will stop and remove the Docker containers, delete the WordPress files directory, and clean up the `/etc/hosts` file entry.
 
 
-## **License**
-
-[Specify the license under which the code in this repository is distributed. If you are using an open-source license, provide a brief summary of the license terms.]
-
 ## **Contact**
 
-**If you have any questions or issues regarding this script, please contact [provide contact information or a link to the issue tracker].**
+**If you have any questions or issues regarding this script, please [contact us](mailto:dev902741@gmail.com).**
 ```
 
