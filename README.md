@@ -1,9 +1,9 @@
 Sure! Here's the README file with the headings in bold:
 
-```markdown
-**WordPress Site Management Script**
 
-**This script allows you to easily create, manage, and delete a WordPress site using Docker and Docker Compose.**
+## **WordPress Site Management Script**
+
+## **This script allows you to easily create, manage, and delete a WordPress site using Docker and Docker Compose.**
 
 ## **Prerequisites**
 
