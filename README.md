@@ -1,7 +1,5 @@
-Certainly! Here's the README file in GitHub Markdown format:
-
 ```markdown
-# WordPress Site Management Script
+**WordPress Site Management Script
 
 This script allows you to easily create, manage, and delete a WordPress site using Docker and Docker Compose.
 
