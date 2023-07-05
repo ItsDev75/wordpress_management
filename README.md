@@ -1,35 +1,37 @@
+Sure! Here's the README file with the headings in bold:
+
 ```markdown
-**WordPress Site Management Script
+# **WordPress Site Management Script**
 
-This script allows you to easily create, manage, and delete a WordPress site using Docker and Docker Compose.
+**This script allows you to easily create, manage, and delete a WordPress site using Docker and Docker Compose.**
 
-## Prerequisites
+## **Prerequisites**
 
-Before using this script, ensure that you have the following dependencies installed:
+**Before using this script, ensure that you have the following dependencies installed:**
 
 - [Docker](https://docs.docker.com/get-docker/): Ensure Docker is installed on your system.
 - [Docker Compose](https://docs.docker.com/compose/install/): Ensure Docker Compose is installed on your system.
 
-## Usage
+## **Usage**
 
-To use this script, follow the instructions below:
+**To use this script, follow the instructions below:**
 
-1. Clone the repository to your local machine:
+1. **Clone the repository to your local machine:**
    ```shell
    git clone https://github.com/ItsDev75/wordpress_management.git
    ```
 
-2. Navigate to the script directory:
+2. **Navigate to the script directory:**
    ```shell
    cd repository-name
    ```
 
-3. Make the script executable:
+3. **Make the script executable:**
    ```shell
    chmod +x script.sh
    ```
 
-4. Run the script with the desired command:
+4. **Run the script with the desired command:**
 
    - **Create a WordPress site:**
      ```shell
@@ -49,15 +51,15 @@ To use this script, follow the instructions below:
      ```
      This command will stop and remove the Docker containers, delete the WordPress files directory, and clean up the `/etc/hosts` file entry.
 
-5. Follow the instructions provided by the script. For example, after creating a site, it will display the URL where you can access your WordPress site in a browser.
+5. **Follow the instructions provided by the script.** For example, after creating a site, it will display the URL where you can access your WordPress site in a browser.
 
-## License
+## **License**
 
 [Specify the license under which the code in this repository is distributed. If you are using an open-source license, provide a brief summary of the license terms.]
 
-## Contact
+## **Contact**
 
-If you have any questions or issues regarding this script, please contact [provide contact information or a link to the issue tracker].
+**If you have any questions or issues regarding this script, please contact [provide contact information or a link to the issue tracker].**
 ```
 
 You can copy this Markdown code and paste it directly into your README.md file in your GitHub repository.
