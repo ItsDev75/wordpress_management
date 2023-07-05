@@ -41,27 +41,25 @@
 
 **To use this script, follow the instructions below:**
 
-1. **Run the script with the desired command:**
-
-   - **Create a WordPress site:**
+**Create a WordPress site:**
      ```shell
      ./script.sh create <site_name>
      ```
      Replace `<site_name>` with the desired name for your WordPress site. This command will check if Docker and Docker Compose are installed. If not, it will install them for you. Then, it will create a new directory for your WordPress files, generate a `docker-compose.yml` file with the necessary configurations, and start the Docker containers.
 
-   - **Manage the site:**
+**Manage the site:**
      ```shell
      ./script.sh manage <start|stop>
      ```
      Use this command to start or stop the Docker containers for your WordPress site. Replace `<start|stop>` with either `start` or `stop` to control the containers accordingly.
 
-   - **Delete the site:**
+**Delete the site:**
      ```shell
      ./script.sh delete
      ```
      This command will stop and remove the Docker containers, delete the WordPress files directory, and clean up the `/etc/hosts` file entry.
 
-2. **Follow the instructions provided by the script.** For example, after creating a site, it will display the URL where you can access your WordPress site in a browser.
+**Follow the instructions provided by the script.** For example, after creating a site, it will display the URL where you can access your WordPress site in a browser.
 
 ## **License**
 
