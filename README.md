@@ -1,6 +1,6 @@
 ## **WordPress Site Management Script**
 
-## **This script allows you to easily create, manage, and delete a WordPress site using Docker and Docker Compose.**
+## **This script allows you to easily create, manage, and delete a LEMP Stack WordPress site using Docker and Docker Compose.**
 ## Table of Contents
 
 - [Prerequisites](#prerequisites)
@@ -25,7 +25,7 @@
 
 1. Clone the repository to your local machine:
    ```shell
-   [https://github.com/ItsDev75/wordpress_management.git]
+   https://github.com/ItsDev75/wordpress_management.git
    
 2. Navigate to the script directory:
    ```shell
