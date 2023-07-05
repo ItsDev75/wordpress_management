@@ -25,7 +25,7 @@
 
 1. Clone the repository to your local machine:
    ```shell
-   git clone https://github.com/your-username/repository-name.git
+   [https://github.com/ItsDev75/wordpress_management.git]
    
 2. Navigate to the script directory:
    ```shell
