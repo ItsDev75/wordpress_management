@@ -37,13 +37,13 @@ jobs:
         run: echo "VERSION=latest" >> $GITHUB_ENV
 
       - name: Build the MySQL Docker image
-        run: docker build ./mysql --file ./mysql/Dockerfile --tag ${{ secrets.DOCKER_USERNAME }}/custom-mysql:${{ env.VERSION }}
+        run: docker build ./mysql --file ./mysql/Dockerfile --tag ${{ secrets.DOCKER_USERNAME }}/mysql-image:${{ env.VERSION }}
 
       - name: Push the MySQL Docker image
         run: docker push ${{ secrets.DOCKER_USERNAME }}/mysql-image:${{ env.VERSION }}
 
       - name: Build the WordPress Docker image
-        run: docker build ./Wordpress --file ./Wordpress/Dockerfile --tag ${{ secrets.DOCKER_USERNAME }}/custom-wordpress:${{ env.VERSION }}
+        run: docker build ./Wordpress --file ./Wordpress/Dockerfile --tag ${{ secrets.DOCKER_USERNAME }}/wordpres-image:${{ env.VERSION }}
 
       - name: Push the WordPress Docker image
         run: docker push ${{ secrets.DOCKER_USERNAME }}//wordpres-image:${{ env.VERSION }}
