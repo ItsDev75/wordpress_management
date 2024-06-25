@@ -28,7 +28,7 @@ jobs:
       - name: Determine version
         id: get_version
         run: |
-          DATE_TAG=$(date +'%Y%m%d%H%M%S')
+          DATE_TAG=$(date +'%Y%m%d')
           SHORT_SHA=${GITHUB_SHA::7}
           echo "VERSION=${DATE_TAG}-${SHORT_SHA}" >> $GITHUB_ENV
 
