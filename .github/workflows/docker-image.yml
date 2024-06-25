@@ -4,8 +4,6 @@ on:
   push:
     branches:
       - "main"
-    tags:
-      - "v*.*.*"  # This triggers on version tags like v1.0.0, v2.1.3, etc.
 
   pull_request:
     branches:
@@ -27,14 +25,12 @@ jobs:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
 
-      - name: Extract version from tag
-        if: startsWith(github.ref, 'refs/tags/')
-        id: extract_version
-        run: echo "VERSION=${GITHUB_REF#refs/tags/}" >> $GITHUB_ENV
-
-      - name: Set version to default if not tagging
-        if: github.ref == 'refs/heads/main'
-        run: echo "VERSION=latest" >> $GITHUB_ENV
+      - name: Determine version
+        id: get_version
+        run: |
+          DATE_TAG=$(date +'%Y%m%d%H%M%S')
+          SHORT_SHA=${GITHUB_SHA::7}
+          echo "VERSION=${DATE_TAG}-${SHORT_SHA}" >> $GITHUB_ENV
 
       - name: Build the MySQL Docker image
         run: docker build ./mysql --file ./mysql/Dockerfile --tag ${{ secrets.DOCKER_USERNAME }}/mysql-image:${{ env.VERSION }}
