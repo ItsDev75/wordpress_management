@@ -46,4 +46,4 @@ jobs:
         run: docker build ./Wordpress --file ./Wordpress/Dockerfile --tag ${{ secrets.DOCKER_USERNAME }}/wordpres-image:${{ env.VERSION }}
 
       - name: Push the WordPress Docker image
-        run: docker push ${{ secrets.DOCKER_USERNAME }}//wordpres-image:${{ env.VERSION }}
+        run: docker push ${{ secrets.DOCKER_USERNAME }}/wordpres-image:${{ env.VERSION }}
